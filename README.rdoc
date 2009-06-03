@@ -1,0 +1,22 @@
+= Gridz
+
+Gridz is a CSS framework that allows you to create grid based layouts with ease.
+This gem is designed to work with Ruby on Rails applications but I may change
+that should the need arise. To use this gem simply install it
+
+  sudo gem install tschmidt-gridz
+
+Then, from your RoR application root, run
+
+  script/generate gridz
+
+This will copy the necessary files to your +public/stylesheets+ directory. In your
+layout file add this line:
+
+  <%= stylesheet_link_tag "application" %>
+
+== Notes
+
+Any specific design changes that you would like to make to your application should
+be defined in the +public/stylesheets/skin.css+ file. Please see the wiki for
+more details.
